@@ -1,0 +1,58 @@
+<!-- UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARA
+FACULDADE DE ENGENHARIA DA COMPUTAÇÃO
+Disciplina: Avaliação de Desempenho de Sistemas
+Prof. Dr. João Vitor Carmona
+Equipe: Alaim de Jesus Leão Costa; Henrique Pereira Viana; Klauber Araujo Sousa
+Implementação de sistema de aeroporto -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Avaliação e Desempenho de Sistemas</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/aviao.jpg" alt="Imagem do titulo" class="photo">
+    </header>
+    <section>
+        <!--seção de conteúdos-->
+        <header>
+            <h2 class="subtitle">Melhor atendimento e conforto</h2>
+        </header>
+
+        <article class="post">
+            <header>
+                <label>Número de Usuários:</label>
+                <input id="numUsua" class="input-padrao" type="number" />/h<br /><br />
+
+                <label>Número de Atendentes:</label>
+                <input id="numAtendente" class="input-padrao" type="number" /><br /><br />
+
+                <label>Nº de Atendimento por Atendente:</label>
+                <input id="numAtendimento" class="input-padrao" type="number" />/h<br /><br />
+
+                Capacidade de Atendimento é <span id="cap_Atendimento"></span> usuários/h<br /><br />
+                Tempo Estimado no Sistema é de <span id="temp_sistema"></span> minutos <br /><br />
+                Tempo de Espera na Fila é de <span id="temp_fila"></span> minutos <br /><br />
+
+                <button class="botao" onclick="capacidadeAtendi()">Atualizar Atendimento</button><br /><br />
+            </header>
+        </article>
+
+
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

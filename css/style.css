@@ -1,0 +1,107 @@
+/* UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARA
+FACULDADE DE ENGENHARIA DA COMPUTAÇÃO
+Disciplina: Avaliação de Desempenho de Sistemas
+Prof. Dr. João Vitor Carmona
+Equipe: Alaim de Jesus Leão Costa; Henrique Pereira Viana; Klauber Araujo Sousa
+Implementação de sistema de aeroporto
+ */
+
+body {
+    background: #ccc;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 30px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title,
+.subtitle,
+.post_title {
+    text-align: center;
+    color: #505050;
+}
+
+.post {
+    background: #FFF;
+    padding: 5px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-decoration: none;
+}
+
+.input-padrao {
+    padding: 5px 5px;
+    width: 10%;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px 0;
+    background: rgb(177, 85, 24);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: rgb(255, 83, 15);
+    transform: scale(1.2);
+}
+
+h2 {
+    box-shadow: .6em 0 0 #a71d1d;
+    margin: 2rem 1rem;
+    width: 25ch;
+    overflow: hidden;
+    color: #000000;
+    white-space: nowrap;
+    animation: caret .5s step-end infinite alternate, type 5s steps(25, end)
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50% {
+        box-shadow: .6em 0 0 transparent;
+    }
+}
+
+@use postcss-preset-env {
+    stage: 0;
+
+    autoprefixer: {
+        grid: true;
+    }
+
+    browsers: [ "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions",
+    "last 1 Edge versions"
+    ]
+}
