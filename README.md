@@ -24,3 +24,15 @@ Em seguida, temos a interface gráfica do sistema para que o administrador possa
 - `Funcionalidade 1`: Calcula a capacidade de atendimento da equipe
 - `Funcionalidade 2`: Calcula o tempo de permanencia do usuário na fila
 - `Funcionalidade 3`: Calcula o tempo de permanencia do usuário no sistema como um todo
+
+## 📁 Acesso ao projeto
+
+**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+
+## 🛠️ Abrir e rodar o projeto
+
+**Apresente as instruções necessárias para abrir e executar o projeto**
+
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |
+| :---: |
